@@ -3,7 +3,7 @@
     <li>
         <h2>{{ title }}</h2>
         <p>{{ description }}</p>
-        <p>Location: {{ location }}</p>
+        <p>Event Location: {{ location }}</p>
         <p>Likes: {{ likes }}
         <form method="POST" action="/event/like">
         <input type="hidden" value="{{_id}}" name="id">
